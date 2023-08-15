@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ysabeau+Infant:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-page p{
+    background-color: #1CD1B0;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.title-page h1{
+    background-color: #00669F;
+    height: 70px;
+    padding-left: 20px;
+    font-size: 40px;
+    padding-top: 10px;
+    box-shadow: 3px 10px 5px rgba(0,0,0,0.3);
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.card-batman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; 
+    margin: 0 auto;
+    border-radius: 10% 10% 0% 0%; 
+    background-color: #f3f3f3;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    
+}
+
+.banner-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.like{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: none;
+    border: none;
+    z-index: 1;
+    color: #CC2424;
+    font-size: 30px;
+}
+
+.banner{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.heroe {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    top: -70px;
+    left: 30%;
+
+}
+
+.card-batman h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    top:-50px;
+}
+
+.card-batman p{
+    position: relative;
+    font-size: 16px;
+    top:-50px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.card-batman button:last-child {
+    position: relative;
+    background-color: #00669f;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 20px 50px;
+    cursor: pointer;
+    top: -20px;
+}
+
+.final-title{
+    background-color: #00669F;
+    height: 30px;
+    padding-left: 20px;
+    font-size: 12px;
+    padding-top: 5px;
+    color:white;
+}
+
+
